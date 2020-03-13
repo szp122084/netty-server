@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.protobuf.pojo";
+option java_outer_classname = "ProtoBuf";
+
+message Message {
+    int32 type = 1;
+    string msg = 2;
+}
